@@ -1,7 +1,7 @@
 package common
 
 import (
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"fmt"
 )
 

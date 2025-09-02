@@ -1,7 +1,7 @@
 package ops
 
 import (
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"errors"
 	"testing"
 

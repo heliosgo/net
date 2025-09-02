@@ -1,7 +1,7 @@
 package codec
 
 import (
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"io"
 
 	"github.com/damianoneill/net/v2/netconf/common/codec/rfc6242"

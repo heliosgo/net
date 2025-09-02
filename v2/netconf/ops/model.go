@@ -1,6 +1,6 @@
 package ops
 
-import "encoding/xml"
+import "github.com/nbio/xml"
 
 const (
 	// Configuration Datastores

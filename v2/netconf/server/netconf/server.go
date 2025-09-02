@@ -2,7 +2,7 @@ package netconf
 
 import (
 	"context"
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"sync"
 	"sync/atomic"
 	"time"

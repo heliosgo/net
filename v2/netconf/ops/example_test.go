@@ -3,7 +3,7 @@ package ops
 
 import (
 	"context"
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"fmt"
 
 	"github.com/damianoneill/net/v2/netconf/testserver"

@@ -1,6 +1,8 @@
 module github.com/damianoneill/net
 
-go 1.18
+go 1.21
+
+toolchain go1.23.8
 
 require (
 	github.com/git-chglog/git-chglog v0.15.4
@@ -8,6 +10,7 @@ require (
 	github.com/google/uuid v1.5.0
 	github.com/imdario/mergo v0.3.13
 	github.com/mcubik/goverreport v1.0.0
+	github.com/nbio/xml v0.0.0-20250818163314-26f233ebe138
 	github.com/pkg/errors v0.9.1
 	github.com/psampaz/go-mod-outdated v0.9.0
 	github.com/securego/gosec v0.0.0-20200401082031-e946c8c39989
@@ -16,7 +19,10 @@ require (
 	github.com/uw-labs/lichen v0.1.7
 	golang.org/x/crypto v0.16.0
 	mvdan.cc/gofumpt v0.4.0
+
 )
+
+replace encoding/xml => github/nbio/xml v0.0.0-20250818163314-26f233ebe138
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6 // indirect

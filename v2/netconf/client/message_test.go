@@ -2,7 +2,7 @@ package client
 
 import (
 	"context"
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"fmt"
 	"sync"
 	"sync/atomic"

@@ -1,7 +1,7 @@
 package netconf
 
 import (
-	"encoding/xml"
+	"github.com/nbio/xml"
 	"io"
 
 	"github.com/damianoneill/net/netconf/rfc6242"
